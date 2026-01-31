@@ -1,0 +1,2 @@
+libcurl-x64.dll:16cec9f1c4b55cf3418af3e29953c0c6
+module.bin:899e1c624d0b7528031383ff54a1d227
