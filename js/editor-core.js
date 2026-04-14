@@ -1,3 +1,7 @@
+define(function() {
+	return {}
+})
+
 (function (global) {
     'use strict';
 
