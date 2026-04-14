@@ -1,14 +1,3 @@
-define(function() {
-	return {}
-})
-
-/**
- * editor-core.js — Часть 2
- * Основная логика Monaco-редакторов для BAS.
- * Совместимость: Monaco v0.10, ES6.
- */
-
-
 // ─────────────────────────────────────────────
 // Глобальные функции (вне IIFE, non-strict)
 // ─────────────────────────────────────────────
@@ -983,3 +972,5 @@ function MonacoEditorInsertAtEnd(editor, text) {
     document.head.appendChild(_style);
 
 })(window);
+
+define('editor-core', [], function () { return; });
