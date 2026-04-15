@@ -90,8 +90,6 @@ function EditorSetupResizer(codeEl, resizer, sizeEl) {
     $resizer.off('mousedown.monacoResize').on('mousedown.monacoResize', onMouseDown);
 }
 
-window.EditorSetupResizer = EditorSetupResizer;
-
 function EditorRestoreSize(codeEl, sizeEl, defSize) {
     const height = String(sizeEl.val() || '');
     codeEl.css('height', height.length >= 2 ? `${height}px` : (defSize || '100px'));
@@ -972,4 +970,4 @@ function MonacoEditorInsertAtEnd(editor, text) {
 })(window);
 
 
-define('editor-core', [], function () { return; });
+define(function () {);
