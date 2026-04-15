@@ -970,4 +970,4 @@ function MonacoEditorInsertAtEnd(editor, text) {
 })(window);
 
 
-define(function () {);
+define(function () {});
