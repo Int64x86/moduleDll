@@ -1,8 +1,4 @@
-// ─────────────────────────────────────────────
-// Глобальные функции (вне IIFE, non-strict)
-// ─────────────────────────────────────────────
-
-EditorSetupResizer = function(codeEl, resizer, sizeEl) {
+function EditorSetupResizer(codeEl, resizer, sizeEl) {
     if (!codeEl || !codeEl.length) return;
 
     const el = codeEl[0];
@@ -94,12 +90,12 @@ EditorSetupResizer = function(codeEl, resizer, sizeEl) {
     $resizer.off('mousedown.monacoResize').on('mousedown.monacoResize', onMouseDown);
 }
 
-EditorRestoreSize = function(codeEl, sizeEl, defSize) {
+function EditorRestoreSize(codeEl, sizeEl, defSize) {
     const height = String(sizeEl.val() || '');
     codeEl.css('height', height.length >= 2 ? `${height}px` : (defSize || '100px'));
 }
 
-MonacoEditorInsertAtEnd = function (editor, text) {
+function MonacoEditorInsertAtEnd(editor, text) {
     const model = editor.getModel();
     const old   = model.getValue();
     editor.executeEdits('format-json', [{
@@ -972,5 +968,6 @@ MonacoEditorInsertAtEnd = function (editor, text) {
     document.head.appendChild(_style);
 
 })(window);
+
 
 define('editor-core', [], function () { return; });
