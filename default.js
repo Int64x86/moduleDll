@@ -1,4 +1,3 @@
-var defaultVariants =
 {
   "chrome124_win10": {
     "httpversion": "2",
@@ -583,7 +582,12 @@ var defaultVariants =
                     "http_headers": [
                         "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0"
                     ]
-                }
+                 },
+                 "firefox152_win10": {
+                    "http_headers": [
+                        "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0"
+                    ]
+                 }
             }
       }
     }
