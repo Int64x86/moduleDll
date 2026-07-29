@@ -430,7 +430,14 @@
     },
     "ja4_hash": "t13d1516h2_8daaf6152771_f856b9a3e94f",
     "http2_hash": "52d84b11737d980aef856699f885ca86",
-    "equals": {}
+    "equals": {
+    	"chrome151_win10": {
+    		 "http_headers": [
+		      "sec-ch-ua: \"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+		      "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+		    ]
+    	}
+    }
   },
   "firefox133_win10": {
     "httpversion": "2",
