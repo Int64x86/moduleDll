@@ -433,19 +433,19 @@
     "equals": {
       "chrome151_win10": {
         "http_headers": [
-          "Cache-Control: max-age=0",
-          "sec-ch-ua: \"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
-          "sec-ch-ua-mobile: ?0",
-          "sec-ch-ua-platform: \"Windows\"",
           "Upgrade-Insecure-Requests: 1",
           "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
           "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-          "Sec-Fetch-Site: same-origin",
+          "sec-ch-ua: \"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+          "sec-ch-ua-mobile: ?0",
+          "sec-ch-ua-platform: \"Windows\"",
+          "Sec-Fetch-Site: none",
           "Sec-Fetch-Mode: navigate",
           "Sec-Fetch-User: ?1",
           "Sec-Fetch-Dest: document",
           "Accept-Encoding: gzip, deflate, br, zstd",
-          "Accept-Language: en-US,en;q=0.9"
+          "Accept-Language: en-US,en;q=0.9",
+          "Priority: u=0, i"
         ],
         "client_hints": [
           "sec-ch-ua-full-version-list: \"Not=A?Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"151.0.7922.138\", \"Chromium\";v=\"151.0.7922.138\"",
@@ -473,7 +473,9 @@
         "sec_fetch_mode_header_order": {
           "navigate": [
             "Connection",
-            "Cache-Control",
+            "Upgrade-Insecure-Requests",
+            "User-Agent",
+            "Accept",
             "device-memory",
             "sec-ch-device-memory",
             "dpr",
@@ -499,22 +501,19 @@
             "sec-ch-prefers-color-scheme",
             "sec-ch-prefers-reduced-motion",
             "sec-ch-prefers-reduced-transparency",
-            "Upgrade-Insecure-Requests",
-            "User-Agent",
-            "Accept",
             "Sec-Fetch-Site",
             "Sec-Fetch-Mode",
             "Sec-Fetch-User",
             "Sec-Fetch-Dest",
-            "Referer",
             "Accept-Encoding",
             "Accept-Language",
+            "Priority",
             "Cookie"
           ],
           "other": [
             "Connection",
             "Content-Length",
-            "Pragma",
+            "pragma",
             "Cache-Control",
             "viewport-width",
             "ect",
@@ -548,6 +547,7 @@
             "Referer",
             "Accept-Encoding",
             "Accept-Language",
+            "Priority",
             "Cookie"
           ]
         }
