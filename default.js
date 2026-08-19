@@ -448,7 +448,7 @@
           "Priority: u=0, i"
         ],
         "client_hints": [
-          "sec-ch-ua-full-version-list: \"Not=A?Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"151.0.7922.138\", \"Chromium\";v=\"151.0.7922.138\"",
+          "sec-ch-ua-full-version-list: \"Not=A?Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"151.0.7922.170\", \"Chromium\";v=\"151.0.7922.170\"",
           "viewport-width: #random-viewport-width#",
           "device-memory: #random-memory#",
           "sec-ch-dpr: #random-dpr#",
@@ -458,7 +458,7 @@
           "sec-ch-ua-wow64: ?0",
           "sec-ch-ua-arch: \"x86\"",
           "sec-ch-prefers-reduced-transparency: no-preference",
-          "sec-ch-ua-full-version: \"151.0.7922.138\"",
+          "sec-ch-ua-full-version: \"151.0.7922.170\"",
           "sec-ch-viewport-width: #random-viewport-width#",
           "downlink: #random-downlink#",
           "sec-ch-viewport-height: #random-viewport-height#",
@@ -812,6 +812,11 @@
           "firefox153_win10": {
             "http_headers": [
               "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0"
+            ]
+          },
+          "firefox154_win10": {
+            "http_headers": [
+              "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0"
             ]
           }
         }
