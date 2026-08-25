@@ -586,7 +586,7 @@
     "http2_stream_exclusive": 1,
     "http3": {
       "sig_hash_algs": "ecdsa_secp256r1_sha256,rsa_pss_rsae_sha256,rsa_pkcs1_sha256,ecdsa_secp384r1_sha384,rsa_pss_rsae_sha384,rsa_pkcs1_sha384,rsa_pss_rsae_sha512,rsa_pkcs1_sha512,rsa_pkcs1_sha1",
-      "tls_extension_order": "0-10-13-16-27-43-45-51-57-17613-65037",
+      "tls_extension_order": "0-10-13-16-27-43-45-51-57-17613-65037-51764",
       "http3_pseudo_headers_order": "masp",
       "http3_settings": "1:65536;6:262144;7:100;51:1;GREASE",
       "quic_transport_parameters": "1:30000;3:1472;4:15728640;5:6291456;6:6291456;7:6291456;8:100;9:103;15:;17:1@1,GREASE;32:65536;12583:AUTO;12584:4f524947;18258:1;GREASE",
