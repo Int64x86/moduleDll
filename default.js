@@ -712,7 +712,7 @@
         "Cookie"
       ]
     },
-    "ja4_hash": "t13d1517h2_8daaf6152771_.*?$",
+    "ja4_hash": "^t13d1517h2_8daaf6152771_.*?$",
     "http2_hash": "52d84b11737d980aef856699f885ca86",
     "equals": {}
   },
