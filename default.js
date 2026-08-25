@@ -591,7 +591,7 @@
       "http3_settings": "1:65536;6:262144;7:100;51:1;GREASE",
       "quic_transport_parameters": "1:30000;3:1472;4:15728640;5:6291456;6:6291456;7:6291456;8:100;9:103;15:;17:1@1,GREASE;32:65536;12583:AUTO;12584:4f524947;18258:1;GREASE",
 	  "tls_custom_use_ext_names": "add_trust_anchors_ext",
-      "ja4_hash": "q13d0311h3_55b375c5d22e_653d80c3fe9d"
+      "ja4_hash": "q13d0312h3_55b375c5d22e_178839b6cec1"
     },
     "http_headers": [
       "sec-ch-ua: \"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
@@ -712,7 +712,7 @@
         "Cookie"
       ]
     },
-    "ja4_hash": "t13d1517h2_8daaf6152771_6a1afa855a34",
+    "ja4_hash": "t13d1517h2_8daaf6152771_.*?$",
     "http2_hash": "52d84b11737d980aef856699f885ca86",
     "equals": {}
   },
