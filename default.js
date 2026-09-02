@@ -609,7 +609,7 @@
       "Priority: u=0, i"
     ],
     "client_hints": [
-      "sec-ch-ua-full-version-list: \"Chromium\";v=\"152.0.7977.65\", \"Not?A_Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"152.0.7977.65\"",
+      "sec-ch-ua-full-version-list: \"Chromium\";v=\"152.0.7977.76\", \"Not?A_Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"152.0.7977.76\"",
       "viewport-width: #random-viewport-width#",
       "device-memory: #random-memory#",
       "sec-ch-dpr: #random-dpr#",
@@ -619,7 +619,7 @@
       "sec-ch-ua-wow64: ?0",
       "sec-ch-ua-arch: \"x86\"",
       "sec-ch-prefers-reduced-transparency: no-preference",
-      "sec-ch-ua-full-version: \"152.0.7977.65\"",
+      "sec-ch-ua-full-version: \"152.0.7977.76\"",
       "sec-ch-viewport-width: #random-viewport-width#",
       "downlink: #random-downlink#",
       "sec-ch-viewport-height: #random-viewport-height#",
