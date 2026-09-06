@@ -986,7 +986,7 @@
             "http_headers": [
               "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0"
             ],
-			"ja4_hash": "t13d1517h2_8daaf6152771_5ac152f973c6",
+			"ja4_hash": "t13d1517h2_8daaf6152771_5ac152f973c6"
           }
         }
       }
