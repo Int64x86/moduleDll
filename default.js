@@ -739,8 +739,8 @@
     "tls_permute_extensions": true,
     "tls_renegotiation_info": true,
     "tls_custom_use_ext_names": "add_grease_sigalg",
-	"tls_trust_anchors_hex_data": "00b808839a648c9b2d010908839a648c9b2d010a0582df13021308839a648c9b2d01070582df13020604d679090f0582df13021204d679090c08839a648c9b2d010c0582df13020f04d679090a08839a648c9b2d010b0582df13021404d679090104d67909040582df13020e08839a648c9b2d01120582df13020104d679090d04d679090804d67909050582df13020d08839a648c9b2d010804d679090708839a648c9b2d010d04d679090608839a648c9b2d011304d679090b",
-	"tls_permute_trust_anchors": true,
+    "tls_trust_anchors_hex_data": "00b808839a648c9b2d010908839a648c9b2d010a0582df13021308839a648c9b2d01070582df13020604d679090f0582df13021204d679090c08839a648c9b2d010c0582df13020f04d679090a08839a648c9b2d010b0582df13021404d679090104d67909040582df13020e08839a648c9b2d01120582df13020104d679090d04d679090804d67909050582df13020d08839a648c9b2d010804d679090708839a648c9b2d010d04d679090608839a648c9b2d011304d679090b",
+    "tls_permute_trust_anchors": true,
     "http2_pseudo_headers_order": "masp",
     "http2_settings": "1:65536;2:0;4:6291456;6:262144",
     "http2_window_update": 15663105,
@@ -756,11 +756,11 @@
       "ja4_hash": "q13d0312h3_55b375c5d22e_178839b6cec1"
     },
     "http_headers": [
-      "sec-ch-ua: \"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+      "sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
       "sec-ch-ua-mobile: ?0",
       "sec-ch-ua-platform: \"Windows\"",
       "Upgrade-Insecure-Requests: 1",
-      "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
       "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
       "Sec-Fetch-Site: none",
       "Sec-Fetch-Mode: navigate",
@@ -771,7 +771,7 @@
       "Priority: u=0, i"
     ],
     "client_hints": [
-      "sec-ch-ua-full-version-list: \"Chromium\";v=\"152.0.7977.83\", \"Not?A_Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"152.0.7977.83\"",
+      "sec-ch-ua-full-version-list: \"Google Chrome\";v=\"153.0.8010.37\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.37\"",
       "viewport-width: #random-viewport-width#",
       "device-memory: #random-memory#",
       "sec-ch-dpr: #random-dpr#",
@@ -781,7 +781,7 @@
       "sec-ch-ua-wow64: ?0",
       "sec-ch-ua-arch: \"x86\"",
       "sec-ch-prefers-reduced-transparency: no-preference",
-      "sec-ch-ua-full-version: \"152.0.7977.83\"",
+      "sec-ch-ua-full-version: \"153.0.8010.37\"",
       "sec-ch-viewport-width: #random-viewport-width#",
       "downlink: #random-downlink#",
       "sec-ch-viewport-height: #random-viewport-height#",
