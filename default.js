@@ -754,12 +754,20 @@
     "http2_stream_weight": 256,
     "http2_stream_exclusive": 1,
     "http3": {
-      "sig_hash_algs": "ecdsa_secp256r1_sha256,rsa_pss_rsae_sha256,rsa_pkcs1_sha256,ecdsa_secp384r1_sha384,rsa_pss_rsae_sha384,rsa_pkcs1_sha384,rsa_pss_rsae_sha512,rsa_pkcs1_sha512,rsa_pkcs1_sha1",
-      "tls_extension_order": "0-10-13-16-27-43-45-51-57-17613-65037-51764",
-      "http3_pseudo_headers_order": "masp",
-      "http3_settings": "1:65536;6:262144;7:100;51:1;GREASE",
-      "quic_transport_parameters": "1:30000;3:1472;4:15728640;5:6291456;6:6291456;7:6291456;8:100;9:103;15:;17:1@1,GREASE;32:65536;12583:AUTO;12584:4f524947;18258:1;GREASE",
-      "ja4_hash": "q13d0312h3_55b375c5d22e_178839b6cec1"
+        "sig_hash_algs": "ecdsa_secp256r1_sha256,rsa_pss_rsae_sha256,rsa_pkcs1_sha256,ecdsa_secp384r1_sha384,rsa_pss_rsae_sha384,rsa_pkcs1_sha384,rsa_pss_rsae_sha512,rsa_pkcs1_sha512,rsa_pkcs1_sha1",
+        "tls_early_data": true,
+        "tls_status_request": false,
+        "tls_renegotiation_info": false,
+        "tls_signed_cert_timestamps": false,
+        "http3_pseudo_headers_order": "masp",
+        "http3_settings": "1:65536;6:262144;7:100;51:1;GREASE",
+        "http3_frame_order": "SETTINGS,GREASE,PRIORITY_UPDATE,HEADERS",
+        "http3_frame_grease": true,
+        "http3_priority_update": "u=0, i",
+        "quic_transport_parameters": "1:30000;3:1472;4:15728640;5:6291456;6:6291456;7:6291456;8:100;9:103;15:;17:1@1,GREASE;32:65536;12583:AUTO;12584:4f524947;GREASE",
+        "quic_initial_packet_parameters": "packer_impl:quiche;packet_size:1250;packet_number:1;dcid_length:8;scid_length:0",
+        "ja4_hash": "q13d0312h3_55b375c5d22e_178839b6cec1",
+		"h3_hash": "ba909fc3dc419ea5c5b26c6323ac1879"
     },
     "http_headers": [
       "sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
@@ -1148,17 +1156,97 @@
             "http_headers": [
               "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0"
             ]
-          },
-          "firefox155_win10": {
-            "ciphers": "TLS_AES_128_GCM_SHA256,TLS_CHACHA20_POLY1305_SHA256,TLS_AES_256_GCM_SHA384,ECDHE-ECDSA-AES128-GCM-SHA256,ECDHE-RSA-AES128-GCM-SHA256,ECDHE-ECDSA-CHACHA20-POLY1305,ECDHE-RSA-CHACHA20-POLY1305,ECDHE-ECDSA-AES256-GCM-SHA384,ECDHE-RSA-AES256-GCM-SHA384,ECDHE-RSA-AES128-SHA,ECDHE-RSA-AES256-SHA,AES128-GCM-SHA256,AES256-GCM-SHA384,AES128-SHA,AES256-SHA",
-            "http_headers": [
-              "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0"
-            ],
-            "ja4_hash": "t13d1517h2_8daaf6152771_5ac152f973c6"
           }
         }
       }
     }
+  },
+  "firefox155_win10": {
+	"min_module_version": "4.4.8",
+    "httpversion": "2",
+    "ssl_version": "1.2",
+    "ciphers": "TLS_AES_128_GCM_SHA256,TLS_CHACHA20_POLY1305_SHA256,TLS_AES_256_GCM_SHA384,ECDHE-ECDSA-AES128-GCM-SHA256,ECDHE-RSA-AES128-GCM-SHA256,ECDHE-ECDSA-CHACHA20-POLY1305,ECDHE-RSA-CHACHA20-POLY1305,ECDHE-ECDSA-AES256-GCM-SHA384,ECDHE-RSA-AES256-GCM-SHA384,ECDHE-RSA-AES128-SHA,ECDHE-RSA-AES256-SHA,AES128-GCM-SHA256,AES256-GCM-SHA384,AES128-SHA,AES256-SHA",
+    "curves": "X25519MLKEM768:X25519:P-256:P-384:P-521:ffdhe2048:ffdhe3072",
+    "sig_hash_algs": "ecdsa_secp256r1_sha256,ecdsa_secp384r1_sha384,ecdsa_secp521r1_sha512,rsa_pss_rsae_sha256,rsa_pss_rsae_sha384,rsa_pss_rsae_sha512,rsa_pkcs1_sha256,rsa_pkcs1_sha384,rsa_pkcs1_sha512,ecdsa_sha1,rsa_pkcs1_sha1",
+    "ech": "true",
+    "alpn": true,
+    "alps": false,
+    "tls_session_ticket": true,
+    "tls_status_request": true,
+    "cert_compression": "zlib,brotli,zstd",
+    "tls_grease": false,
+    "tls_use_new_alps_codepoint": false,
+    "tls_signed_cert_timestamps": true,
+    "tls_extension_order": "0-23-65281-10-11-35-16-5-34-18-51-43-13-45-28-27-65037",
+    "tls_delegated_credentials": "ecdsa_secp256r1_sha256:ecdsa_secp384r1_sha384:ecdsa_secp521r1_sha512:ecdsa_sha1",
+    "tls_record_size_limit": 16385,
+    "tls_key_shares_limit": 3,
+    "tls_permute_extensions": false,
+    "tls_renegotiation_info": true,
+    "http2_pseudo_headers_order": "mpas",
+    "http2_settings": "1:65536;2:0;4:131072;5:16384",
+    "http2_window_update": 12517377,
+    "http2_streams": null,
+    "http2_stream_weight": 42,
+    "http2_stream_exclusive": 0,
+    "http3": {
+		"sig_hash_algs": "ecdsa_secp256r1_sha256,ecdsa_secp384r1_sha384,ecdsa_secp521r1_sha512,ecdsa_sha1,rsa_pss_rsae_sha256,rsa_pss_rsae_sha384,rsa_pss_rsae_sha512,rsa_pkcs1_sha256,rsa_pkcs1_sha384,rsa_pkcs1_sha512,rsa_pkcs1_sha1",
+        "curves": "X25519MLKEM768:x25519:P-256:P-384:P-521",
+        "ech": "CHACHA20_POLY1305",
+        "ech_grease_size": 100,
+        "tls_early_data": true,
+        "tls_permute_extensions": true,
+		"tls_extended_master_secret": true,
+        "tls_signed_cert_timestamps": false,
+		"tls_extension_order": "45-10-43-65281-34-27-13-51-5-16-28-23-0-57-65037",
+        "http3_pseudo_headers_order": "msap",
+        "http3_settings": "1:65536;7:20;727725890:0;16765559:1;51:1;8:1",
+		"http3_frame_order": "SETTINGS,GREASE,HEADERS",
+        "http3_frame_grease": true,
+        "quic_initial_packet_parameters": "packer_impl:neqo;udp_payload_size:1252;packet_number:1-255;packet_number_length:1;dcid_length:8-20;scid_length:3-4",
+        "quic_transport_parameters": "1:30000;4:25165824;5:12582912;6:1048576;7:1048576;8:100;9:100;11:20;14:8;15:AUTO;17:1@GREASE,0x6b3343cf,1;29;GREASE;32:65535",
+		"ja4_hash": "q13d0315h3_55b375c5d22e_dc5437974b47",	
+		"h3_hash": "d50d4e585c22bb92b6c86b592aa2d586"	
+    },
+    "http_headers": [
+      "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0",
+      "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language: en-US,en;q=0.5",
+      "Accept-Encoding: gzip, deflate, br, zstd",
+      "Upgrade-Insecure-Requests: 1",
+      "Sec-Fetch-Dest: document",
+      "Sec-Fetch-Mode: navigate",
+      "Sec-Fetch-Site: none",
+      "Sec-Fetch-User: ?1",
+      "Priority: u=0, i",
+      "Te: trailers"
+    ],
+    "sec_fetch_mode_header_order": {
+      "other": [
+        "User-Agent",
+        "Accept",
+        "Accept-Language",
+        "Accept-Encoding",
+        "Referer",
+        "#custom#",
+        "Content-Type",
+        "Content-Length",
+        "Origin",
+        "Connection",
+        "Upgrade-Insecure-Requests",
+        "Cookie",
+        "Sec-Fetch-Dest",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Site",
+        "Priority",
+        "Pragma",
+        "Cache-Control",
+        "Te"
+      ]
+    },
+    "ja4_hash": "t13d1517h2_8daaf6152771_5ac152f973c6",
+    "http2_hash": "6ea73faa8fc5aac76bded7bd238f6433",
+    "equals": {}
   },
   "android_okhttp": {
     "httpversion": "2",
