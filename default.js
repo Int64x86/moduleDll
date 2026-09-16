@@ -1249,12 +1249,17 @@
     "ja4_hash": "t13d1517h2_8daaf6152771_5ac152f973c6",
     "http2_hash": "6ea73faa8fc5aac76bded7bd238f6433",
     "equals": {
-      "firefox156": {
+      "firefox156_win10": {
+        "tls_extended_master_secret": true,
         "http3": {
           "sig_hash_algs": "ecdsa_secp256r1_sha256,ecdsa_secp384r1_sha384,ecdsa_secp521r1_sha512,ecdsa_sha1,rsa_pss_rsae_sha256,rsa_pss_rsae_sha384,rsa_pss_rsae_sha512,mldsa44,mldsa65,mldsa87,rsa_pkcs1_sha256,rsa_pkcs1_sha384,rsa_pkcs1_sha512,rsa_pkcs1_sha1",
+          "tls_extended_master_secret": false,
           "tls_delegated_credentials": "ecdsa_secp256r1_sha256:ecdsa_secp384r1_sha384:ecdsa_secp521r1_sha512:ecdsa_sha1:mldsa44:mldsa65:mldsa87",
           "ja4_hash": "q13d0315h3_55b375c5d22e_bb76f32061e3"
-        }
+        },
+        "http_headers": [
+          "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0"
+        ]
       }
     }
   },
