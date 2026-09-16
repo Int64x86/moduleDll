@@ -1250,6 +1250,7 @@
     "http2_hash": "6ea73faa8fc5aac76bded7bd238f6433",
     "equals": {
       "firefox156_win10": {
+		"min_module_version": "4.4.9",
         "tls_extended_master_secret": true,
         "http3": {
           "sig_hash_algs": "ecdsa_secp256r1_sha256,ecdsa_secp384r1_sha384,ecdsa_secp521r1_sha512,ecdsa_sha1,rsa_pss_rsae_sha256,rsa_pss_rsae_sha384,rsa_pss_rsae_sha512,mldsa44,mldsa65,mldsa87,rsa_pkcs1_sha256,rsa_pkcs1_sha384,rsa_pkcs1_sha512,rsa_pkcs1_sha1",
