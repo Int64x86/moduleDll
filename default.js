@@ -1248,7 +1248,15 @@
     },
     "ja4_hash": "t13d1517h2_8daaf6152771_5ac152f973c6",
     "http2_hash": "6ea73faa8fc5aac76bded7bd238f6433",
-    "equals": {}
+    "equals": {
+      "firefox156": {
+        "http3": {
+          "sig_hash_algs": "ecdsa_secp256r1_sha256,ecdsa_secp384r1_sha384,ecdsa_secp521r1_sha512,ecdsa_sha1,rsa_pss_rsae_sha256,rsa_pss_rsae_sha384,rsa_pss_rsae_sha512,mldsa44,mldsa65,mldsa87,rsa_pkcs1_sha256,rsa_pkcs1_sha384,rsa_pkcs1_sha512,rsa_pkcs1_sha1",
+          "tls_delegated_credentials": "ecdsa_secp256r1_sha256:ecdsa_secp384r1_sha384:ecdsa_secp521r1_sha512:ecdsa_sha1:mldsa44:mldsa65:mldsa87",
+          "ja4_hash": "q13d0315h3_55b375c5d22e_bb76f32061e3"
+        }
+      }
+    }
   },
   "android_okhttp": {
     "httpversion": "2",
