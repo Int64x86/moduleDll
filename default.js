@@ -786,7 +786,7 @@
       "Priority: u=0, i"
     ],
     "client_hints": [
-      "sec-ch-ua-full-version-list: \"Google Chrome\";v=\"153.0.8010.48\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.48\"",
+      "sec-ch-ua-full-version-list: \"Google Chrome\";v=\"153.0.8010.53\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.53\"",
       "viewport-width: #random-viewport-width#",
       "device-memory: #random-memory#",
       "sec-ch-dpr: #random-dpr#",
@@ -796,7 +796,7 @@
       "sec-ch-ua-wow64: ?0",
       "sec-ch-ua-arch: \"x86\"",
       "sec-ch-prefers-reduced-transparency: no-preference",
-      "sec-ch-ua-full-version: \"153.0.8010.48\"",
+      "sec-ch-ua-full-version: \"153.0.8010.53\"",
       "sec-ch-viewport-width: #random-viewport-width#",
       "downlink: #random-downlink#",
       "sec-ch-viewport-height: #random-viewport-height#",
@@ -1250,7 +1250,7 @@
     "http2_hash": "6ea73faa8fc5aac76bded7bd238f6433",
     "equals": {
       "firefox156_win10": {
-		"min_module_version": "4.4.9",
+        "min_module_version": "4.4.9",
         "tls_extended_master_secret": true,
         "http3": {
           "sig_hash_algs": "ecdsa_secp256r1_sha256,ecdsa_secp384r1_sha384,ecdsa_secp521r1_sha512,ecdsa_sha1,rsa_pss_rsae_sha256,rsa_pss_rsae_sha384,rsa_pss_rsae_sha512,mldsa44,mldsa65,mldsa87,rsa_pkcs1_sha256,rsa_pkcs1_sha384,rsa_pkcs1_sha512,rsa_pkcs1_sha1",
