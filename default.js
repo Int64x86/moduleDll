@@ -896,7 +896,7 @@
       "chrome154_win10": {
         "http_headers": [
           "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
-          "sec-ch-ua: \"Chromium\";v=\"154\", \"Google Chrome\";v=\"154\", \"Not A(Brand\";v=\"99\"",
+          "sec-ch-ua: \"Chromium\";v=\"154\", \"Google Chrome\";v=\"154\", \"Not A(Brand\";v=\"99\""
         ],
         "client_hints": [
           "sec-ch-ua-full-version-list: \"Chromium\";v=\"154.0.8037.58\", \"Google Chrome\";v=\"154.0.8037.58\", \"Not A(Brand\";v=\"99.0.0.0\"",
