@@ -892,7 +892,37 @@
     },
     "ja4_hash": "^t13d1517h2_8daaf6152771_.*?$",
     "http2_hash": "52d84b11737d980aef856699f885ca86",
-    "equals": {}
+    "equals": {
+      "chrome154_win10": {
+        "http_headers": [
+          "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+          "sec-ch-ua: \"Chromium\";v=\"154\", \"Google Chrome\";v=\"154\", \"Not A(Brand\";v=\"99\"",
+        ],
+        "client_hints": [
+          "sec-ch-ua-full-version-list: \"Chromium\";v=\"154.0.8037.58\", \"Google Chrome\";v=\"154.0.8037.58\", \"Not A(Brand\";v=\"99.0.0.0\"",
+          "viewport-width: #random-viewport-width#",
+          "device-memory: #random-memory#",
+          "sec-ch-dpr: #random-dpr#",
+          "sec-ch-ua-model: \"\"",
+          "sec-ch-ua-form-factors: \"Desktop\"",
+          "sec-ch-ua-bitness: \"64\"",
+          "sec-ch-ua-wow64: ?0",
+          "sec-ch-ua-arch: \"x86\"",
+          "sec-ch-prefers-reduced-transparency: no-preference",
+          "sec-ch-ua-full-version: \"154.0.8037.58\"",
+          "sec-ch-viewport-width: #random-viewport-width#",
+          "downlink: #random-downlink#",
+          "sec-ch-viewport-height: #random-viewport-height#",
+          "ect: #random-ect#",
+          "sec-ch-device-memory: #random-memory#",
+          "sec-ch-prefers-reduced-motion: no-preference",
+          "dpr: #random-dpr#",
+          "sec-ch-prefers-color-scheme: light",
+          "rtt: #random-rtt#",
+          "sec-ch-ua-platform-version: \"10.0.0\""
+        ]
+      }
+    }
   },
   "firefox133_win10": {
     "httpversion": "2",
