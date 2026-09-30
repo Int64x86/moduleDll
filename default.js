@@ -899,7 +899,7 @@
           "sec-ch-ua: \"Chromium\";v=\"154\", \"Google Chrome\";v=\"154\", \"Not A(Brand\";v=\"99\""
         ],
         "client_hints": [
-          "sec-ch-ua-full-version-list: \"Chromium\";v=\"154.0.8037.58\", \"Google Chrome\";v=\"154.0.8037.58\", \"Not A(Brand\";v=\"99.0.0.0\"",
+          "sec-ch-ua-full-version-list: \"Chromium\";v=\"154.0.8037.59\", \"Google Chrome\";v=\"154.0.8037.59\", \"Not A(Brand\";v=\"99.0.0.0\"",
           "viewport-width: #random-viewport-width#",
           "device-memory: #random-memory#",
           "sec-ch-dpr: #random-dpr#",
@@ -909,7 +909,7 @@
           "sec-ch-ua-wow64: ?0",
           "sec-ch-ua-arch: \"x86\"",
           "sec-ch-prefers-reduced-transparency: no-preference",
-          "sec-ch-ua-full-version: \"154.0.8037.58\"",
+          "sec-ch-ua-full-version: \"154.0.8037.59\"",
           "sec-ch-viewport-width: #random-viewport-width#",
           "downlink: #random-downlink#",
           "sec-ch-viewport-height: #random-viewport-height#",
