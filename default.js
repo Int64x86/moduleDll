@@ -561,8 +561,8 @@
                     "sec-ch-ua: \"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
                 ],
                 "client_hints": [
-                    "sec-ch-ua-full-version-list: \"Google Chrome\";v=\"155.0.8059.40\", \"Chromium\";v=\"155.0.8059.40\", \"Not(A:Brand\";v=\"24.0.0.0\"",
-                    "sec-ch-ua-full-version: \"155.0.8059.40\""
+                    "sec-ch-ua-full-version-list: \"Google Chrome\";v=\"155.0.8059.80\", \"Chromium\";v=\"155.0.8059.80\", \"Not(A:Brand\";v=\"24.0.0.0\"",
+                    "sec-ch-ua-full-version: \"155.0.8059.80\""
                 ]
 			}
         }   
