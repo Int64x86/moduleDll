@@ -502,11 +502,11 @@
             "Accept-Encoding: gzip, deflate, br, zstd", "Accept-Language: en-US,en;q=0.9", "Priority: u=0, i"
         ],
         "client_hints": [
-            "sec-ch-ua-full-version-list: \"Google Chrome\";v=\"153.0.8059.85\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8059.85\"",
+            "sec-ch-ua-full-version-list: \"Google Chrome\";v=\"153.0.8010.53\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.53\"",
             "viewport-width: #random-viewport-width#", "device-memory: #random-memory#", "sec-ch-dpr: #random-dpr#",
             "sec-ch-ua-model: \"\"", "sec-ch-ua-form-factors: \"Desktop\"", "sec-ch-ua-bitness: \"64\"",
             "sec-ch-ua-wow64: ?0", "sec-ch-ua-arch: \"x86\"", "sec-ch-prefers-reduced-transparency: no-preference",
-            "sec-ch-ua-full-version: \"153.0.8059.85\"", "sec-ch-viewport-width: #random-viewport-width#",
+            "sec-ch-ua-full-version: \"153.0.8010.53\"", "sec-ch-viewport-width: #random-viewport-width#",
             "downlink: #random-downlink#", "sec-ch-viewport-height: #random-viewport-height#", "ect: #random-ect#",
             "sec-ch-device-memory: #random-memory#", "sec-ch-prefers-reduced-motion: no-preference",
             "dpr: #random-dpr#", "sec-ch-prefers-color-scheme: light", "rtt: #random-rtt#",
@@ -561,8 +561,8 @@
                     "sec-ch-ua: \"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
                 ],
                 "client_hints": [
-                    "sec-ch-ua-full-version-list: \"Google Chrome\";v=\"155.0.8059.80\", \"Chromium\";v=\"155.0.8059.80\", \"Not(A:Brand\";v=\"24.0.0.0\"",
-                    "sec-ch-ua-full-version: \"155.0.8059.80\""
+                    "sec-ch-ua-full-version-list: \"Google Chrome\";v=\"155.0.8059.85\", \"Chromium\";v=\"155.0.8059.85\", \"Not(A:Brand\";v=\"24.0.0.0\"",
+                    "sec-ch-ua-full-version: \"155.0.8059.85\""
                 ]
 			}
         }   
