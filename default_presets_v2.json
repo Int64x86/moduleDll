@@ -272,6 +272,7 @@
       "tls_no_session_tiket_reuse": false,
       "tls_permute_extensions": true,
       "tls_signed_cert_timestamps": false,
+	  "tls_extension_order": null,
       "ja4_hash": "q13d0315h3_55b375c5d22e_dc5437974b47",
       "http3_hash": "57a555a4bb29a366dec5cb0fa534bfff",
       "http3_frame_grease": true,
