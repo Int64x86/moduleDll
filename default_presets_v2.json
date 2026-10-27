@@ -167,7 +167,7 @@
       "http3_pseudo_headers_order": "masp",
       "http3_settings": "1:65536;6:262144;7:100;51:1;GREASE",
       "http3_permute_settings": false,
-      "quic_use_0rtt": false,
+      "quic_use_0rtt": true,
       "quic_initial_packet_parameters": "packer_impl:quiche;packet_size:1250;packet_number:1;dcid_length:8;scid_length:0",
       "quic_transport_parameters": "5:6291456;17:1@1,GREASE;12584:4f524947;7:6291456;9:103;12583:AUTO;15:AUTO;8:100;GREASE;6:6291456;3:1472;4:15728640;32:65536;1:30000",
       "quic_permute_transport_parameters": true,
