@@ -87,6 +87,7 @@
       ],
       "other": [
         "Connection",
+        "Content-Length",
         "pragma",
         "Cache-Control",
         "sec-ch-ua-full-version-list",
@@ -104,6 +105,7 @@
         "sec-ch-ua-arch",
         "sec-ch-prefers-reduced-transparency",
         "sec-ch-ua-full-version",
+        "Content-Type",
         "sec-ch-viewport-width",
         "downlink",
         "sec-ch-viewport-height",
@@ -244,17 +246,17 @@
     ],
     "sec_fetch_mode_header_order": {
       "navigate": [
-        "#custom#",
         "User-Agent",
         "Accept",
         "Accept-Language",
         "Accept-Encoding",
+        "Referer",
         "Connection",
+        "Cookie",
         "Upgrade-Insecure-Requests",
         "Sec-Fetch-Dest",
         "Sec-Fetch-Mode",
         "Sec-Fetch-Site",
-        "Sec-Fetch-User",
         "Priority"
       ],
       "other": [
@@ -263,15 +265,18 @@
         "Accept-Language",
         "Accept-Encoding",
         "Referer",
+        "Content-Type",
         "#custom#",
+        "Content-Length",
+        "Origin",
+        "Connection",
+        "Cookie",
         "Sec-Fetch-Dest",
         "Sec-Fetch-Mode",
         "Sec-Fetch-Site",
         "Priority",
-        "pragma",
-        "Cache-Control",
-        "Connection",
-        "Cookie"
+        "Pragma",
+        "Cache-Control"
       ]
     },
     "http3": {
