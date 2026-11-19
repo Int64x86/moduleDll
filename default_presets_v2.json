@@ -31,6 +31,7 @@
     "http2_stream_exclusive": 1,
     "http2_hash": "90224459f8bf70b7d0a8797eb916dbc9",
     "http_headers": [
+      "Connection: keep-alive",
       "sec-ch-ua: \"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\"",
       "sec-ch-ua-mobile: ?0",
       "sec-ch-ua-platform: \"Windows\"",
@@ -69,7 +70,6 @@
         "sec-ch-ua-wow64",
         "sec-ch-ua-full-version-list",
         "sec-ch-ua-form-factors",
-        "#custom#",
         "sec-ch-prefers-color-scheme",
         "sec-ch-prefers-reduced-motion",
         "sec-ch-prefers-reduced-transparency",
@@ -78,17 +78,16 @@
         "Accept",
         "Sec-Fetch-Site",
         "Sec-Fetch-Mode",
-        "Sec-Fetch-User",
         "Sec-Fetch-Dest",
+        "Referer",
         "Accept-Encoding",
         "Accept-Language",
-        "Priority",
         "Cookie"
       ],
       "other": [
         "Connection",
         "Content-Length",
-        "pragma",
+        "Pragma",
         "Cache-Control",
         "sec-ch-ua-full-version-list",
         "sec-ch-ua-platform",
@@ -97,8 +96,8 @@
         "sec-ch-ua",
         "sec-ch-dpr",
         "sec-ch-ua-model",
-        "sec-ch-ua-mobile",
         "#custom#",
+        "sec-ch-ua-mobile",
         "sec-ch-ua-bitness",
         "sec-ch-ua-form-factors",
         "sec-ch-ua-wow64",
@@ -118,13 +117,13 @@
         "rtt",
         "sec-ch-ua-platform-version",
         "Accept",
+        "Origin",
         "Sec-Fetch-Site",
         "Sec-Fetch-Mode",
         "Sec-Fetch-Dest",
         "Referer",
         "Accept-Encoding",
         "Accept-Language",
-        "Priority",
         "Cookie"
       ]
     },
@@ -162,10 +161,10 @@
       "tls_extended_master_secret": false,
       "tls_key_shares_limit": 2,
       "ja4_hash": "q13d0312h3_55b375c5d22e_178839b6cec1",
-      "h3_hash": "1a26c3c48518060c703620a70dd2b124",
+      "h3_hash": "f1a1843e2b6e4dfaa33a0ccd2cb4f1fa",
       "http3_frame_grease": true,
       "http3_frame_order": "SETTINGS,GREASE,PRIORITY_UPDATE,HEADERS",
-      "http3_priority_update": "u=1, i",
+      "http3_priority_update": "u=0, i",
       "http3_pseudo_headers_order": "masp",
       "http3_settings": "1:65536;6:262144;7:100;51:1;GREASE",
       "http3_permute_settings": false,
@@ -195,6 +194,17 @@
         "client_hints": [
           "sec-ch-ua-full-version: \"157.0.8103.79\"",
           "sec-ch-ua-full-version-list: \"Not-A.Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"157.0.8103.79\", \"Chromium\";v=\"157.0.8103.79\""
+        ]
+      },
+      "chrome158_win10": {
+        "http2_stream_weight": 256,
+        "http_headers": [
+          "sec-ch-ua: \"Chromium\";v=\"158\", \"Not.A/Brand\";v=\"24\", \"Google Chrome\";v=\"158\"",
+          "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36"
+        ],
+        "client_hints": [
+          "sec-ch-ua-full-version-list: \"Chromium\";v=\"158.0.8127.37\", \"Not.A/Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"158.0.8127.37\"",
+          "sec-ch-ua-full-version: \"158.0.8127.37\""
         ]
       }
     }
