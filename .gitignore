@@ -1,1 +1,3 @@
 *.preview
+/PYTHON/.idea
+/PYTHON/examples/.idea
