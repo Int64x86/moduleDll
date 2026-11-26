@@ -204,8 +204,8 @@
           "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36"
         ],
         "client_hints": [
-          "sec-ch-ua-full-version-list: \"Chromium\";v=\"158.0.8127.37\", \"Not.A/Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"158.0.8127.37\"",
-          "sec-ch-ua-full-version: \"158.0.8127.37\""
+          "sec-ch-ua-full-version-list: \"Chromium\";v=\"158.0.8127.89\", \"Not.A/Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"158.0.8127.89\"",
+          "sec-ch-ua-full-version: \"158.0.8127.89\""
         ]
       }
     }
