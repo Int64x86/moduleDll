@@ -1,10 +1,10 @@
 4.5.8@loader54ab3f30ac1bf534cd646c3f6d8d503c505be0e3b9dc31a58dac3e88715dfcaa
 
-Добавлен новый параметр пресета split_cookies, определяющий, следует ли разбивать cookies на отдельные заголовки Cookie.
+Добавлен новый параметр пресета "split_cookies", определяющий, следует ли разбивать cookies на отдельные заголовки Cookie.
 
 Обновлён пресет Firefox.
 Добавлена проверка двух вариантов JA4-отпечатка (initial и reused). Для Chrome значения JA4 остаются неизменными.
 
-Выпущена первая версия Python-модуля — v0.1.0. https://github.com/Int64x86/moduleDll/tree/main/PYTHON
+Выпущена первая версия Python-модуля — v0.1.0: https://github.com/Int64x86/moduleDll/tree/main/PYTHON
 
 P.S. Вы можете предложить свой функционал или полезную фичу, написав мне в ЛС или в Telegram-группу.
