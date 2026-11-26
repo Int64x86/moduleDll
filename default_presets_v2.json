@@ -23,6 +23,7 @@
     "tls_trust_anchors_hex_data": "00b80582df1302010582df1302060582df13020d0582df13020e0582df13020f0582df1302120582df1302130582df13021408839a648c9b2d010708839a648c9b2d010808839a648c9b2d010908839a648c9b2d010a08839a648c9b2d010b08839a648c9b2d010c08839a648c9b2d010d08839a648c9b2d011208839a648c9b2d011304d679090104d679090404d679090504d679090604d679090704d679090804d679090a04d679090b04d679090c04d679090d04d679090f",
     "tls_permute_trust_anchors": false,
     "ja4_hash": "t13d1517h2_8daaf6152771_72fe7826094d",
+    "split_cookies": true,
     "http2_pseudo_headers_order": "masp",
     "http2_settings": "1:65536;2:0;4:6291456;6:262144",
     "http2_window_update": 15663105,
@@ -230,11 +231,15 @@
     "tls_permute_extensions": false,
     "tls_signed_cert_timestamps": true,
     "tls_extended_master_secret": true,
-    "tls_extension_order": "0-23-65281-10-11-16-5-34-18-51-43-13-45-28-27-65037",
+    "tls_extension_order": "0-23-65281-10-11-35-16-5-34-18-51-43-13-45-28-27-65037",
     "tls_delegated_credentials": "ecdsa_secp256r1_sha256:ecdsa_secp384r1_sha384:ecdsa_secp521r1_sha512:ecdsa_sha1",
     "tls_record_size_limit": 16385,
     "tls_key_shares_limit": 3,
-    "ja4_hash": "t13d1516h2_8daaf6152771_f26bcd3ec72f",
+    "ja4_hash": {
+      "initial": "t13d1517h2_8daaf6152771_82ffa734ce1b",
+      "reused": "t13d1516h2_8daaf6152771_f26bcd3ec72f"
+    },
+    "split_cookies": true,
     "http2_pseudo_headers_order": "mpas",
     "http2_settings": "1:65536;2:0;4:131072;5:16384",
     "http2_window_update": 12517377,
@@ -290,6 +295,7 @@
       ]
     },
     "http3": {
+      "split_cookies": false,
       "ciphers": "TLS_AES_128_GCM_SHA256,TLS_CHACHA20_POLY1305_SHA256,TLS_AES_256_GCM_SHA384",
       "sig_hash_algs": "ecdsa_secp256r1_sha256,ecdsa_secp384r1_sha384,ecdsa_secp521r1_sha512,ecdsa_sha1,rsa_pss_rsae_sha256,rsa_pss_rsae_sha384,rsa_pss_rsae_sha512,rsa_pkcs1_sha256,rsa_pkcs1_sha384,rsa_pkcs1_sha512,rsa_pkcs1_sha1",
       "cert_compression": "zlib,zstd,brotli",
@@ -327,6 +333,11 @@
         "http_headers": [
           "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:160.0) Gecko/20100101 Firefox/160.0"
         ]
+      },
+      "firefox161_win10": {
+        "http_headers": [
+          "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:161.0) Gecko/20100101 Firefox/161.0"
+        ]
       }
     }
   },
@@ -350,6 +361,7 @@
     "tls_key_shares_limit": 1,
     "tls_custom_use_ext_names": "add_padding_ext",
     "ja4_hash": "t13d1513h2_8daaf6152771_40ee8053a5bb",
+    "split_cookies": true,
     "http2_pseudo_headers_order": "mpas",
     "http2_settings": "4:16777216",
     "http2_window_update": 16711681,
