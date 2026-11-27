@@ -62,8 +62,7 @@ with impersonate.Client() as client:
     print(response.content_text)
 ```
 
-`set_module_version("")` clears `VERSION` in `RemoteConfig.ini`, so the loader
-uses the latest module version. Call it before creating the first `Client`.
+`set_module_version(version)` specifies the native module version to use, automatically downloading it if necessary.
 
 Use a `*Last_win10` preset to follow the latest bundled browser version. All
 available variants are returned in `settings.preset["storage"]`.
@@ -250,9 +249,7 @@ with impersonate.Client() as client:
     print(response.content_text)
 ```
 
-`set_module_version("")` очищает `VERSION` в `RemoteConfig.ini`, чтобы loader
-загрузил последнюю версию модуля. Вызывайте функцию до создания первого
-`Client`.
+`set_module_version(version) задаёт версию нативного модуля, автоматически загружая её при необходимости.
 
 Пресет `*Last_win10` выбирает последнюю встроенную версию браузера. Список всех
 пресетов находится в `settings.preset["storage"]`.
