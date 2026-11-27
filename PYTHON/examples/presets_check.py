@@ -277,5 +277,4 @@ async def check_all():
 
 
 if __name__ == "__main__":
-    impersonate.set_module_version("")
     asyncio.run(check_all())
