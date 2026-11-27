@@ -409,7 +409,7 @@ class Client:
                             if (
                                     not sys.stdin.isatty()
                                     and not prompt_for_license
-                                    and "Not activated" not in str(e)
+                                    and "Not activated" in str(e)
                             ):
                                 raise
                             print(Client._format_error(
