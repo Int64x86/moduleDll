@@ -39,7 +39,7 @@ from curl_impersonate import impersonate
 from yarl import URL
 
 
-impersonate.set_module_version("") # e.g. "4.5.8"
+impersonate.set_module_version("4.5.8")
 
 with impersonate.Client() as client:
     settings = client.configure(impersonate.Settings(
@@ -226,7 +226,7 @@ from curl_impersonate import impersonate
 from yarl import URL
 
 
-impersonate.set_module_version("")
+impersonate.set_module_version("4.5.8")
 
 with impersonate.Client() as client:
     settings = client.configure(impersonate.Settings(
