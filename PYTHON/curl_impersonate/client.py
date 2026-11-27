@@ -407,11 +407,11 @@ class Client:
 
                         except LicenseError as e:
                             if (
-                                    not sys.stdin.isatty()
-                                    and not prompt_for_license
-                                    and "Not activated" in str(e)
+                                    not prompt_for_license
+                                    or "Not activated" not in str(e)
                             ):
                                 raise
+
                             print(Client._format_error(
                                 f'{e}\n'
                                 'Action "impersonate.Configure" requires a valid license key.\n'
@@ -419,7 +419,11 @@ class Client:
                                 'Enter your license key:',
                                 None,
                             ))
-                            settings.license_key = input().strip()
+
+                            try:
+                                settings.license_key = input().strip()
+                            except EOFError:
+                                raise e from None
 
         return self._call(
             "set_settings",
