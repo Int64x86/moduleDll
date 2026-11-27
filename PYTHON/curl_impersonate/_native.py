@@ -174,23 +174,28 @@ def get_runtime(library_path: Optional[os.PathLike] = None) -> NativeRuntime:
 
 def set_module_version(version: str) -> None:
     """
-    Set the native module version used by the loader.
+    Set the native module version to use.
 
-    This updates VERSION in RemoteConfig.ini and must be called before the
-    first Client is created. An empty string selects the latest module version.
+    If the specified version is not installed locally, the native loader
+    will automatically download and install it during initialization.
+
+    Call this function before creating the first Client instance.
 
     Args:
-        version: Exact module version, or an empty string for the latest one.
+        version: Target module version (e.g. "4.5.8").
+            Empty strings are not supported.
 
     Raises:
         RuntimeError: If the native runtime is already loaded.
-        ValueError: If version contains a line break.
-        NativeLibraryError: If RemoteConfig.ini cannot be read or updated.
+        ValueError: If the version contains a line break.
+        NativeLibraryError: If the loader configuration cannot be read or updated.
     """
     if not isinstance(version, str):
         raise TypeError("version must be a string")
     if "\r" in version or "\n" in version:
         raise ValueError("version must be a single line")
+    if not version.strip() or "\r" in version or "\n" in version:
+        raise ValueError("version must be a non-empty single line")
 
     with _runtime_lock:
         if _runtime is not None:
