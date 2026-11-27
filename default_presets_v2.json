@@ -246,6 +246,9 @@
     "http2_no_priority": false,
     "http2_stream_weight": 22,
     "http2_stream_exclusive": 0,
+	"http2_hpack_encoder": "firefox",
+	"http2_next_stream_id": 3,
+	"http2_wait_peer_settings": true,
     "http2_hash": "87a68d774464f75f8b88395030c79a80",
     "http_headers": [
       "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
